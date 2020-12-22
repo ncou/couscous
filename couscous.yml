@@ -1,7 +1,7 @@
 include:
     - docs
 
-cname: docs.filegator.io
+cname: chironphp.io
 
 branch: gh-pages
 
