@@ -12,70 +12,34 @@ subTitle: Documentation
 baseUrl: https://docs.filegator.io
 
 template:
-    directory: docs/template/
-
-github:
-    user: filegator
-    repo: filegator
+    directory: website/
 
 menu:
-    sections:
-        main:
-            name: Getting Started
-            items:
-                home:
-                    text: What is FileGator
-                    relativeUrl: index.html
-                install:
-                    text: Installation
-                    relativeUrl: install.html
-                account:
-                    text: Users
-                    relativeUrl: accounts.html
-                development:
-                    text: Development
-                    relativeUrl: development.html
-                demo:
-                    text: Demo
-                    relativeUrl: demo.html
-        config:
-            name: Configuration
-            items:
-                basic:
-                    text: Basic
-                    relativeUrl: configuration/basic.html
-                auth:
-                    text: Auth
-                    relativeUrl: configuration/auth.html
-                sessions:
-                    text: Session
-                    relativeUrl: configuration/session.html
-                storage:
-                    text: Storage
-                    relativeUrl: configuration/storage.html
-                logging:
-                    text: Logging
-                    relativeUrl: configuration/logging.html
-                security:
-                    text: Security
-                    relativeUrl: configuration/security.html
-                router:
-                    text: Router
-                    relativeUrl: configuration/router.html
-                tmpfs:
-                    text: Tmpfs
-                    relativeUrl: configuration/tmpfs.html
-
-        multilang:
-            name: Languages
-            items:
-                default:
-                    text: Translations
-                    relativeUrl: translations/default.html
-
-        hugo:
-            name: Hugo
-            items:
-                default:
-                    text: Markdown
-                    relativeUrl: hugo/markdown-syntax.html
+    items:
+        getting-started:
+            text: Get started
+            relativeUrl: docs/getting-started.html
+        documentation:
+            text: Index
+            relativeUrl: docs/
+        configuration:
+            text: Configuration
+            relativeUrl: docs/configuration.html
+        templates:
+            text: Templates
+            relativeUrl: docs/templates.html
+        metadata:
+            text: Metadata
+            relativeUrl: docs/metadata.html
+        travis:
+            text: Travis integration
+            relativeUrl: docs/travis.html
+        action:
+            text: Github Action integration
+            relativeUrl: docs/githubaction.html
+        faq:
+            text: FAQ
+            relativeUrl: docs/faq.html
+        contributing:
+            text: Contributing
+            relativeUrl: contributing.html
