@@ -1,3 +1,6 @@
+---
+layout: home
+---
 Couscous generates a [GitHub pages](https://pages.github.com/) website from your markdown documentation.
 
 [![Build Status](https://travis-ci.org/CouscousPHP/Couscous.svg?branch=master)](https://travis-ci.org/CouscousPHP/Couscous)

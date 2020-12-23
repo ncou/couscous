@@ -1,18 +1,9 @@
-include:
-    - docs
+template:
+    directory: website
+
+baseUrl: http://localhost:8000/
 
 cname: chironphp.io
-
-branch: gh-pages
-
-title: FileGator - Documentation
-titleShort: FileGator
-subTitle: Documentation
-
-baseUrl: https://docs.filegator.io
-
-template:
-    directory: website/
 
 menu:
     items:
