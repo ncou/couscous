@@ -1,7 +1,0 @@
-{
-    "name": "chiron/couscous",
-    "license": "MIT",
-    "require": {
-        "couscous/couscous": "^1.8"
-    }
-}

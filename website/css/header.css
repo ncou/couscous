@@ -1,0 +1,68 @@
+/* https://github.com/jeblister/kube/blob/bda578df413e441fb24e4f5f751d2b15b7efb53a/static/css/master.css */
+#top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 0 36px;
+  height: 88px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  #top #top-brand {
+    margin-right: 52px; }
+    #top #top-brand span,
+    #top #top-brand a {
+      background: none;
+      text-indent: -9999px;
+      width: 70px;
+      line-height: 11px;
+      background-repeat: no-repeat; }
+
+  #top ul {
+    display: flex;
+    align-items: center;
+    margin: 0; }
+  #top #top-nav-main {
+    padding-left: 52px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15); }
+    #top #top-nav-main li {
+      font-size: 16px;
+      font-weight: 500;
+      margin-right: 40px; }
+    #top #top-nav-main span,
+    #top #top-nav-main a {
+      display: inline-block; }
+    #top #top-nav-main a {
+      color: #000;
+      text-decoration: none; }
+      #top #top-nav-main a:hover {
+        -moz-transition: all linear 0.2s;
+        transition: all linear 0.2s;
+        color: rgba(0, 0, 0, 0.6);
+        text-decoration: underline; }
+    #top #top-nav-main b a,
+    #top #top-nav-main span {
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.4); }
+    #top #top-nav-main b a {
+      text-decoration: underline; }
+      #top #top-nav-main b a:hover {
+        color: #000; }
+  #top #top-nav-extra {
+    margin-left: auto;
+    font-size: 14px; }
+    #top #top-nav-extra span,
+    #top #top-nav-extra a {
+      color: rgba(0, 0, 0, 0.7);
+      display: inline-block;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      text-decoration: none;
+      line-height: 28px;
+      border-radius: 28px;
+      padding: 0 20px; }
+    #top #top-nav-extra a:hover {
+      -moz-transition: all linear 0.2s;
+      transition: all linear 0.2s;
+      color: #000;
+      text-decoration: underline; }
+    #top #top-nav-extra span {
+      color: rgba(0, 0, 0, 0.4);
+      border-color: rgba(0, 0, 0, 0.2); }

@@ -1,0 +1,26 @@
+/* https://github.com/jeblister/kube/blob/bda578df413e441fb24e4f5f751d2b15b7efb53a/static/css/master.css */
+#footer {
+  display: flex;
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  padding: 0 28px;
+  padding-top: 24px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5); }
+  #footer p {
+    order: 1; }
+  #footer nav {
+    order: 2;
+    margin-left: auto; }
+  #footer nav ul {
+    display: flex; }
+  #footer nav ul li {
+    margin-left: 20px; }
+  #footer nav ul li span {
+    color: rgba(0, 0, 0, 0.3); }
+  #footer nav ul li a {
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none; }
+  #footer nav ul li a:hover {
+    color: #000;
+    text-decoration: underline; }

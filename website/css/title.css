@@ -1,0 +1,15 @@
+.title {
+	font-size: 2.7rem;
+	line-height: 1.1;
+	font-family: roboto, Arial, sans-serif, -apple-system;
+	letter-spacing: -.2px;
+	font-weight: 100;
+	margin-bottom: 20px
+}
+
+@media(min-width:768px) {
+	.title {
+		font-size: 3rem;
+		margin-bottom: 30px
+	}
+}
