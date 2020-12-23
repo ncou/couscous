@@ -3,9 +3,19 @@ language: php
 php:
   - 7.1
 
-before_script:
-  - composer install -n
+install:
+  # Install composer packages
+  - travis_retry composer install --no-interaction --ignore-platform-reqs
+  # Install coveralls.phar
+  - travis_retry composer require --dev --no-interaction couscous/couscous
 
 script:
   - vendor/bin/couscous travis-auto-deploy
+
+# Tell Travis CI to monitor only 'master' branch
+branches:
+  only: master
+
+notifications:
+  email: false
 
