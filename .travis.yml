@@ -1,13 +1,13 @@
 language: php
 
 php:
-  - 7.1
+  - 7.2
 
 install:
   # Install composer packages
-  - travis_retry composer install --no-interaction --ignore-platform-reqs
+  - composer install --no-interaction --ignore-platform-reqs
   # Install coveralls.phar
-  - travis_retry composer require --dev --no-interaction couscous/couscous
+  - composer require --dev --no-interaction couscous/couscous
 
 script:
   - vendor/bin/couscous travis-auto-deploy
